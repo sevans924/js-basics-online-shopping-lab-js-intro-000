@@ -1,7 +1,8 @@
 var cart = [];
 
-function getCart() {
- return cart;
+function getCart(item) {
+
+
 }
 
 function setCart(c) {
@@ -10,8 +11,7 @@ function setCart(c) {
 }
 
 function addToCart(itemName) {
-var price = Math.floor((Math.random() * 100) + 1);
- var itemName = {itemName, price}
+return `itemName: ${itemName}, itemPrice: ${Math.floor(Math.random() * 100)}`  
  // write your code here
 }
 
